@@ -1,7 +1,7 @@
 
 check_dep <- function(){
   if( !requireNamespace("rmarkdown") )
-    stop("package rmarkdown is required to use this function", call. = FALSE)
+    stop("package rmarkdown is required to use this fu nction", call. = FALSE)
   if( !requireNamespace("knitr") )
     stop("package knitr is required to use this function", call. = FALSE)
 }
